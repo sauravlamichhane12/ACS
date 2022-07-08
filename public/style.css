@@ -1,0 +1,157 @@
+
+* {
+margin:0px;
+padding:0px;
+box-sizing:border-box;
+}
+body {
+font-family:"Roboto",sans-serif;
+background:#f5f5f5;
+}
+.Register-form {
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+width:90%;
+max-width:450px;
+background:#fff;
+padding:20px 30px;
+box-shadow:0px 5px 10px rgba(0,0,0,0.1);
+border-radius: 25px;
+}
+.Register-form .form-title {
+font-family:"Montserrat",sans-serif;
+text-align:center;
+font-size:25px;
+font-weight:600;
+margin:20px 0px 20px;
+color:#111;
+}
+.Register-form .form-input {
+margin:10px 0px;
+}
+.Register-form .form-input label,
+.Register-form .captcha label {
+display:block;
+font-size:15px;
+color:#111;
+margin-bottom:5px;
+}
+.Register-form .form-input input {
+width:100%;
+padding:5px;
+border:1px solid #888;
+font-size:15px;
+}
+.Register-form .captcha {
+margin:15px 0px;
+}
+.Register-form .captcha .preview {
+color:#555;
+width:100%;
+text-align:center;
+height:40px;
+line-height:40px;
+letter-spacing:8px;
+border:1px dashed #888;
+font-family:"monospace";
+}
+.Register-form .captcha .preview span {
+display:inline-block;
+user-select:none;
+}
+.Register-form .captcha .captcha-form {
+display:flex;
+}
+.Register-form .captcha .captcha-form input {
+width:100%;
+padding:8px;
+border:1px solid #888;
+}
+.Register-form .captcha .captcha-form .captcha-refresh {
+width:40px;
+border:none;
+outline:none;
+background:#888;
+color:#eee;
+cursor:pointer;
+}
+.Register-form #login-btn {
+    margin-top: 5px;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    background: #4c81ff;
+    color: #fff;
+    cursor: pointer;
+}
+.link-to-register {
+text-align: right;
+}
+
+.login-form {
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+width:90%;
+max-width:450px;
+background:#fff;
+padding:20px 30px;
+box-shadow:0px 5px 10px rgba(0,0,0,0.1);
+border-radius: 25px;
+}
+.login-form .form-title {
+font-family:"Montserrat",sans-serif;
+text-align:center;
+font-size:25px;
+font-weight:600;
+margin:20px 0px 20px;
+color:#111;
+}
+
+.login-form .form-input {
+margin:10px 0px;
+}
+.login-form .form-input input {
+width:100%;
+padding:10px;
+border:1px solid #888;
+font-size:15px;
+}
+
+.login-form #login-btn {
+margin-top:5px;
+width:100%;
+padding:10px;
+border:none;
+outline:none;
+font-size:15px;
+text-transform:uppercase;
+background:#4c81ff;
+color:#fff;
+cursor:pointer;
+}
+.link-to-register {
+text-align: right;
+}
+
+
+.login-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    min-width: 100%;
+    min-height: 100vh;
+    background: #1abc9c;
+    background-image: url(https://technext.github.io/flat_able/assets/images/auth/img-auth-big.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
